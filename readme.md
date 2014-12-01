@@ -1,6 +1,6 @@
-Try to create sourcemaps for my browserify workflow
+```
+npm install
+npm start # compile js & run server on 0.0.0.0:3000
+open http://0.0.0.0:3000
+```
 
-```
-npm i
-npm start # compile js & run server on :3000
-```
