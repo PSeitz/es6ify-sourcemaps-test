@@ -7,4 +7,4 @@ exports.promise = new Promise(function (resolve) {
   }, 2000);
 });
 
-exports.html = require('./tpl.jade')();
+// exports.html = require('./tpl.jade')();
