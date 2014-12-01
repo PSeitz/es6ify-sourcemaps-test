@@ -11,7 +11,7 @@ var jadeify     = require('jadeify');
 
 gulp.task('default', function() {
   gulp.src('index.js')
-    .pipe(browserify())
+    .pipe(browserify({ debug: true }))
     .on('prebundle', function(bundle) {
       bundle
         .transform(jadeify)
@@ -19,7 +19,7 @@ gulp.task('default', function() {
       ;
     })
     .on('error', function(e) { console.log(e); })
-    .pipe(regenerator({ includeRuntime: true }))
+    .pipe(regenerator())
     .pipe(gulp.dest('dest'))
   ;
 });
