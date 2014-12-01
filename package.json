@@ -1,0 +1,21 @@
+{
+  "name": "browserify-sourcemaps-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp; serve dest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^6.3.3",
+    "co": "^4.0.1",
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.0",
+    "gulp-regenerator": "^2.0.0",
+    "jade": "^1.8.1",
+    "jadeify": "^3.0.0",
+    "serve": "^1.4.0"
+  }
+}
